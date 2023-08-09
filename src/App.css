@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000060;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  border-bottom: 5px solid #c0c0c0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* KanaDisplay */
+
+.KanaInputArea {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.KanaInputArea-answer {
+  font-weight: bold;
+}
+
+.KanaInputArea-answer-empty {
+  display: invisible;
+}
+.KanaInputArea-answer-correct {
+  color: green;
+}
+.KanaInputArea-answer-wrong {
+  color: red;
+}
+
+.KanaInputArea-correct-answer {
+  color: black;
+  font-weight: normal;
+}
+
+.KanaDisplay {
+  border-color: black;
+  border-style: solid;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.KanaDisplay-symbol {
+  font-size: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 140px;
+  /* bizarrely, Comic Sans displays the characters nicer? */
+}
+
+.KanaDisplay-input {
+}
+
+.KanaLearningLeft {
+    width: 50%;
+    float: left;
+}
+
+.KanaLearningLeft input.KanaLearningLeft-input-text {
+    width: 133px;
+    margin: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #808080 1px;
+    height: 1.5em;
+    font-size: 0.8em;
+}
+
+.KanaLearningRight {
+    width: 50%;
+    float: right;
+}
+
+.KanaLearningRight-results {
+    border-color: #E0E0E0;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #E0E0E0;
+}
+
+.KanaLearningRight-results tr {
+}
+
+.KanaLearningRight-results td {
+  border-color: #E0E0E0;
+  border-width: 1px;
+  border-style: solid;
+  text-align: left;
+}
+
+/* column with numbers in it */
+.KanaLearningRight-results td:nth-child(2) {
+  padding-left: 20px;
+  text-align: right;
+}
+
+.KanaLearningRight-results tr:nth-child(1) {
+  font-weight: bold;
+}
+
+.KanaLearningRight-results tr:nth-child(1) td {
+  border-bottom: 1px solid black;  /* !@##$%^ */
+}
+
+.KanaLearningRight-options {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.LearnKana-Tabs {
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.LearnKana-Tabs span {
+  background-color: #C0C0FF;
+  margin: 5px;
+  padding: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.LearnKana-Tabs span:hover {
+  background-color: #9090FF;
+}
+
+.KanaTable {
+}
+
+.KanaTable tr {
+}
+
+.KanaTable td {
+  border: 1px solid #C0C0C0;
+  /* these don't really belong here...? */
+  height: 100px;
+  width: 100px;
+}
+
+.KanaSymbol {
+}
+
+.KanaSymbol-symbol {
+  font-size: 70px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  width: 100px;
+}
+
+.KanaSymbol-value {
+  border-top: 1px solid #C0C0C0;
+}
+
+.smiley {
+  color: yellow;
+}
+
+.instructions {
+  text-align: left;
+  margin: 20px;
+  width: 50%;
+  max-width: 600px;
+}

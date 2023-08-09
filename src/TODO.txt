@@ -1,0 +1,14 @@
+TODO:
+
+- later: include digraphs?
+- potentially add a way to limit the number of kana selected? e.g. it would
+  make sense to say "only the first 3 rows in the table" etc, but this might be
+  a bit user-unfriendly.
+- add and show version number somewhere, and perhaps copyright message
+
+OPTIONAL/LATER:
+
+- have an option to show the tables in a different layout, i.e. length-wise
+  (useful for people with super high resolutions that can fit the whole table
+  on their screens)
+  
